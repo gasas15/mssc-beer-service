@@ -26,6 +26,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.util.StringUtils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.saimirgasa.msscbeerservice.bootstrap.BeerLoader;
 import com.saimirgasa.msscbeerservice.services.BeerService;
 import com.saimirgasa.msscbeerservice.web.model.BeerDto;
 import com.saimirgasa.msscbeerservice.web.model.BeerStyleEnum;
@@ -127,7 +128,7 @@ class BeerControllerTest {
                 .beerName("My Beer")
                 .beerStyle(BeerStyleEnum.ALE)
                 .price(new BigDecimal("2.99"))
-                .upc(1231231232132L)
+                .upc(BeerLoader.BEER_1_UPC)
             .build();
     }
 

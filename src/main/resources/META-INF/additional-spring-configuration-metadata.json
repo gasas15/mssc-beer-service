@@ -1,0 +1,18 @@
+{
+    "properties": [
+        {
+            "name": "sfg.brewery.beer-inventory-service-host",
+            "type": "java.lang.String",
+            "description": "Description for sfg.brewery.beer-inventory-service-host."
+        },
+        {
+            "name": "sfg.brewery.inventory-user",
+            "type": "java.lang.String",
+            "description": "Description for sfg.brewery.inventory-user."
+        },
+        {
+            "name": "sfg.brewery.inventory-password",
+            "type": "java.lang.String",
+            "description": "Description for sfg.brewery.inventory-password."
+        }
+    ] }

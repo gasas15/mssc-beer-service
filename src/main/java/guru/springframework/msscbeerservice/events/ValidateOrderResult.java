@@ -1,4 +1,4 @@
-package guru.sfg.brewery.model.events;
+package guru.springframework.msscbeerservice.events;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
